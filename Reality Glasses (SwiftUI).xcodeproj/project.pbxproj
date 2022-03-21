@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9F3A601C27E86E8B0018A662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A601B27E86E8B0018A662 /* AppDelegate.swift */; };
 		9F3A601E27E86E8B0018A662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A601D27E86E8B0018A662 /* ContentView.swift */; };
-		9F3A602027E86E8B0018A662 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A601F27E86E8B0018A662 /* Experience.rcproject */; };
 		9F3A602227E86E8C0018A662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A602127E86E8C0018A662 /* Assets.xcassets */; };
 		9F3A602527E86E8C0018A662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A602427E86E8C0018A662 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		9F3A601827E86E8B0018A662 /* Reality Glasses (SwiftUI).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses (SwiftUI).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3A601B27E86E8B0018A662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F3A601D27E86E8B0018A662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9F3A601F27E86E8B0018A662 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		9F3A602127E86E8C0018A662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3A602427E86E8C0018A662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				9F3A601B27E86E8B0018A662 /* AppDelegate.swift */,
 				9F3A601D27E86E8B0018A662 /* ContentView.swift */,
-				9F3A601F27E86E8B0018A662 /* Experience.rcproject */,
 				9F3A602127E86E8C0018A662 /* Assets.xcassets */,
 				9F3A602327E86E8C0018A662 /* Preview Content */,
 			);
@@ -142,7 +139,6 @@
 			files = (
 				9F3A601E27E86E8B0018A662 /* ContentView.swift in Sources */,
 				9F3A601C27E86E8B0018A662 /* AppDelegate.swift in Sources */,
-				9F3A602027E86E8B0018A662 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
