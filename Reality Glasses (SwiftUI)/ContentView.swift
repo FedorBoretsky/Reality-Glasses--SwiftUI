@@ -7,6 +7,7 @@
 
 import SwiftUI
 import RealityKit
+import ARKit
 
 struct ContentView : View {
     var body: some View {
@@ -17,11 +18,17 @@ struct ContentView : View {
 struct ARViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
-        
+        // Create AR representation.
         let arView = ARView(frame: .zero)
         
-        return arView
+        // Set up face tracking configuration.
+        let configuration = ARFaceTrackingConfiguration()
+        configuration.isLightEstimationEnabled = true
         
+        // Run face tracking session.
+        arView.session.run(configuration)
+        
+        return arView
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
