@@ -21,6 +21,13 @@ struct ARViewContainer: UIViewRepresentable {
         // Create AR representation.
         let arView = ARView(frame: .zero)
         
+        // Check if face tracking is possible.
+        guard ARFaceTrackingConfiguration.isSupported
+        else {
+            print ("Face tracking is not supported by this device.")
+            return arView
+        }
+        
         // Set up face tracking configuration.
         let configuration = ARFaceTrackingConfiguration()
         configuration.isLightEstimationEnabled = true
